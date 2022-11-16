@@ -1,0 +1,7 @@
+create table test
+(
+    field bigint not null,
+    id    bigserial
+        constraint test_pk
+            primary key
+);
